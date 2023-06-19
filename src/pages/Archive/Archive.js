@@ -2,7 +2,7 @@ import EventGrid from '../../components/EventGrid/EventGrid'
 import { eventsBlog } from '../../utils/eventsBlog'
 import SideBarRight from '../../components/SideBarRight/SideBarRight'
 
-export const Blog = () => {
+export const Archive = () => {
 
     return (
         <>

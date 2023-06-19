@@ -6,6 +6,7 @@ import { DobroMoreNorth } from './pages/DobroMoreNorth/DobroMoreNorth'
 import { DobroMoreSouth } from './pages/DobroMoreSouth/DobroMoreSouth'
 import { Press } from './pages/Press/Press'
 import { About } from './pages/About/About'
+import { Archive } from './pages/Archive/Archive'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
             <Route path='/' element={<Layout />}>
                 <Route index element={<Blog />} />
                 <Route path='about' element={<About />} />
+                <Route path='archive' element={<Archive />} />
                 <Route path='recovery' element={<RecoveryProgram />} />
                 <Route path='dobroNorth' element={<DobroMoreNorth />} />
                 <Route path='dobroSouth' element={<DobroMoreSouth />} />

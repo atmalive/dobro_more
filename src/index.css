@@ -28,6 +28,11 @@ code {
     transform: translateX(-50%);
 }
 
+.menu.active {
+    background-color: rgba(0, 0, 0, 0.11);
+
+}
+
 @media screen and (min-width: 640px) {
     .search-bar {
         width: 50%;

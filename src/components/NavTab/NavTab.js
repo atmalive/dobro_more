@@ -2,68 +2,30 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const NavBar = () => {
+    const navLinks = [
+        { to: '/about', text: 'About' },
+        { to: '/', text: 'Blog' },
+        { to: '/archive', text: 'Archive' },
+        { to: '/recovery', text: 'Recovery program' },
+        { to: '/dobroNorth', text: 'ВobroMore North' },
+        { to: '/dobroSouth', text: 'ВobroMore South' },
+        { to: '/press', text: 'Press' },
+    ];
+
     return (
-        <nav className='relative flex  w-full items-center justify-center bg-white py-2 text-neutral-600 shadow-lg hover:text-neutral-700 focus:text-neutral-700 md:flex-wrap md:justify-start'>
-            <div className='flex w-full flex-wrap items-center justify-center px-3'>
-                <div className='items-center lg:!flex lg:basis-auto'>
-                    <ul className='mr-auto flex flex-col lg:flex-row'>
-                        <li className='mb-4 lg:mb-0 lg:pr-2'>
-                            <NavLink
-                                activeClassName='bg-black'
-                                className='block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:p-2'
-                                to={'/about'}
-                            >
-                                About
-                            </NavLink>
-                        </li>
-                        <li className='mb-4 lg:mb-0 lg:pr-2'>
-                            <NavLink
-                                activeClassName='text-neutral-700'
-                                className='block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:p-2'
-                                to={'/'}
-                            >
-                                Blog
-                            </NavLink>
-                        </li>
-                        <li className='mb-4 lg:mb-0 lg:pr-2'>
-                            <NavLink
-                                activeClassName='text-neutral-700'
-                                className='block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:p-2'
-                                to={'/recovery'}
-                            >
-                                Recovery program
-                            </NavLink>
-                        </li>
-                        <li className='mb-2 lg:mb-0 lg:pr-2'>
-                            <NavLink
-                                activeClassName='text-neutral-700'
-                                className='block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:p-2'
-                                to={'/dobroNorth'}
-                            >
-                                ВobroMore North
-                            </NavLink>
-                        </li>
-                        <li className='mb-2 lg:mb-0 lg:pr-2'>
-                            <NavLink
-                                activeClassName='text-neutral-700'
-                                className='block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:p-2'
-                                to={'/dobroSouth'}
-                            >
-                                ВobroMore South
-                            </NavLink>
-                        </li>
-                        <li className='mb-2 lg:mb-0 lg:pr-2'>
-                            <NavLink
-                                activeClassName='text-neutral-700'
-                                className='block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:p-2'
-                                to={'/press'}
-                            >
-                                Press
-                            </NavLink>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <nav className='relative flex w-full items-center justify-center bg-white shadow-lg'>
+            <ul className='flex flex-col sm:flex-row'>
+                {navLinks.map((link, index) => (
+                    <li key={index}>
+                        <NavLink
+                            className='block transition sm:p-3 duration-150 ease-in-out hover:bg-neutral-100 hover:text-neutral-900 menu'
+                            to={link.to}
+                        >
+                            {link.text}
+                        </NavLink>
+                    </li>
+                ))}
+            </ul>
         </nav>
     )
 }
