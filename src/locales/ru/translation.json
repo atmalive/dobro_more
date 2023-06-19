@@ -1,75 +1,18 @@
-
 {
-  "header": {
-    "search": "Поиск",
-    "login": "Войти",
-    "register": "Регистрация",
-    "showMaps": "Показать карту",
-    "changeTheme": "Сменить тему"
-  },
-  "locationInfo": {
-    "country": "Страна",
-    "city": "Город"
-  },
-  "submitEventForm": {
-    "title": "Отправить ссылку на событие",
-    "placeholder": "Введите ссылку на событие...",
-    "submit": "Отправить"
-  },
-  "register": {
-    "confirmPassword": "Подтвердите пароль",
-    "back": "Вернуться"
-  },
-  "signUp": {
-    "title": "Регистрация",
-    "email": "Электронная почта",
-    "password": "Пароль",
-    "confirmPassword": "Подтвердите пароль",
-    "submit": "Зарегистрироваться",
-    "google": "Зарегистрироваться через Google",
-    "facebook": "Зарегистрироваться через Facebook",
-    "linkedin": "Зарегистрироваться через LinkedIn",
-    "subtitle": "Или зарегистрироваться с помощью электронной почты",
-    "registered": "Уже зарегистрированы? Войдите!"
-  },
-  "signIn": {
-    "title": "Вход",
-    "email": "Электронная почта",
-    "password": "Пароль",
-    "submit": "Войти",
-    "google": "Войти через Google",
-    "facebook": "Войти через Facebook",
-    "linkedin": "Войти через LinkedIn",
-    "subtitle": "Или войти с помощью электронной почты",
-    "registered": "Еще не зарегистрированы? Зарегистрируйтесь!"
-  },
-  "eventCard": {
-    "viewEvent": "Просмотреть событие",
-    "register": "Регистрация",
-    "distanceToUser": "Расстояние до пользователя: {{distance}} км",
-    "runDistance": "Бег: {{distance}} км",
-    "swimDistance": "Плавание: {{distance}} км",
-    "bikeDistance": "Велосипед: {{distance}} км",
-    "elevation": "Перепад высот: {{elevation}} м"
-  },
   "footer": {
-    "copyright": "Авторское право © 2023 Plan Race"
+    "copyright": "Copyright © 2023 DobroMore"
   },
   "months": [
     "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
     "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"
   ],
-  "searchBar": {
-    "placeholder": "Поиск активностей...",
-    "button": "Поиск"
-  },
-  "navTabs": {
-    "competitions": "Соревнования",
-    "activity": "Активность",
-    "trainings": "Тренировки",
-    "camps": "Лагеря"
-  },
-  "main": {
-    "sendEvent": "Отправить событие"
+  "navLinks": {
+    "about": "О нас",
+    "blog": "Блог",
+    "archive": "Архив",
+    "recoveryProgram": "Программа восстановления",
+    "dobroNorth": "ДоброМоре Север",
+    "dobroSouth": "ДоброМоре Юг",
+    "press": "Пресса"
   }
 }

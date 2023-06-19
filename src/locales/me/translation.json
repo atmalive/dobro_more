@@ -1,74 +1,18 @@
 {
-  "header": {
-    "search": "Pretraga",
-    "login": "Prijavi se",
-    "register": "Registruj se",
-    "showMaps": "Prikaži mapu",
-    "changeTheme": "Promijeni temu"
-  },
-  "locationInfo": {
-    "country": "Zemlja",
-    "city": "Grad"
-  },
-  "submitEventForm": {
-    "title": "Pošalji link događaja",
-    "placeholder": "Unesi link događaja...",
-    "submit": "Pošalji"
-  },
-  "register": {
-    "confirmPassword": "Potvrdi lozinku",
-    "back": "Vrati se"
-  },
-  "signUp": {
-    "title": "Registruj se",
-    "email": "E-pošta",
-    "password": "Lozinka",
-    "confirmPassword": "Potvrdi lozinku",
-    "submit": "Registruj se",
-    "google": "Registruj se sa Google",
-    "facebook": "Registruj se sa Facebook",
-    "linkedin": "Registruj se sa LinkedIn",
-    "subtitle": "Ili se registrujte putem e-pošte",
-    "registered": "Registrovani? Prijavi se!"
-  },
-  "signIn": {
-    "title": "Prijavi se",
-    "email": "E-pošta",
-    "password": "Lozinka",
-    "submit": "Prijavi se",
-    "google": "Prijavi se sa Google",
-    "facebook": "Prijavi se sa Facebook",
-    "linkedin": "Prijavi se sa LinkedIn",
-    "subtitle": "Ili se prijavi putem e-pošte",
-    "registered": "Niste registrovani? Registrujte se!"
-  },
-  "eventCard": {
-    "viewEvent": "Pogledaj događaj",
-    "register": "Registruj se",
-    "distanceToUser": "Udaljenost od korisnika: {{distance}} km",
-    "runDistance": "Trčanje: {{distance}} km",
-    "swimDistance": "Plivanje: {{distance}} km",
-    "bikeDistance": "Vožnja bicikla: {{distance}} km",
-    "elevation": "Visinska razlika: {{elevation}} m"
-  },
   "footer": {
-    "copyright": "Autorska prava © 2023 Plan Race"
+    "copyright": "Autorska prava © 2023 DobroMore"
   },
   "months": [
-    "Januar", "Februar", "Mart", "April", "Maj", "Jun",
-    "Jul", "Avgust", "Septembar", "Oktobar", "Novembar", "Decembar"
+    "Januar", "Februar", "Mart", "April", "Maj", "Juni",
+    "Juli", "Avgust", "Septembar", "Oktobar", "Novembar", "Decembar"
   ],
-  "searchBar": {
-    "placeholder": "Pretraga aktivnosti...",
-    "button": "Pretraga"
-  },
-  "navTabs": {
-    "competitions": "Takmičenja",
-    "activity": "Aktivnosti",
-    "trainings": "Treninzi",
-    "camps": "Kampovi"
-  },
-  "main": {
-    "sendEvent": "Pošalji događaj"
+  "navLinks": {
+    "about": "O nama",
+    "blog": "Blog",
+    "archive": "Arhiva",
+    "recoveryProgram": "Program oporavka",
+    "dobroNorth": "DobroMore Sjever",
+    "dobroSouth": "DobroMore Jug",
+    "press": "Štampa"
   }
 }

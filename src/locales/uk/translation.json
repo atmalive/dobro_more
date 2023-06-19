@@ -1,74 +1,18 @@
 {
-  "header": {
-    "search": "Пошук",
-    "login": "Увійти",
-    "register": "Реєстрація",
-    "showMaps": "Показати карту",
-    "changeTheme": "Змінити тему"
-  },
-  "locationInfo": {
-    "country": "Країна",
-    "city": "Місто"
-  },
-  "submitEventForm": {
-    "title": "Відправити посилання на подію",
-    "placeholder": "Введіть посилання на подію...",
-    "submit": "Відправити"
-  },
-  "register": {
-    "confirmPassword": "Підтвердіть пароль",
-    "back": "Повернутися"
-  },
-  "signUp": {
-    "title": "Реєстрація",
-    "email": "Електронна пошта",
-    "password": "Пароль",
-    "confirmPassword": "Підтвердіть пароль",
-    "submit": "Зареєструватися",
-    "google": "Зареєструватися за допомогою Google",
-    "facebook": "Зареєструватися за допомогою Facebook",
-    "linkedin": "Зареєструватися за допомогою Linkedin",
-    "subtitle": "Або зареєструватися за допомогою електронної пошти",
-    "registered": "Вже зареєстровані? Увійдіть!"
-  },
-  "signIn": {
-    "title": "Увійти",
-    "email": "Електронна пошта",
-    "password": "Пароль",
-    "submit": "Увійти",
-    "google": "Увійти за допомогою Google",
-    "facebook": "Увійти за допомогою Facebook",
-    "linkedin": "Увійти за допомогою Linkedin",
-    "subtitle": "Або увійти за допомогою електронної пошти",
-    "registered": "Ще не зареєстровані? Зареєструйтеся!"
-  },
-  "eventCard": {
-    "viewEvent": "Переглянути подію",
-    "register": "Реєстрація",
-    "distanceToUser": "Відстань до користувача: {{distance}} км",
-    "runDistance": "Біг: {{distance}} км",
-    "swimDistance": "Плавання: {{distance}} км",
-    "bikeDistance": "Велосипед: {{distance}} км",
-    "elevation": "Підйом: {{elevation}} м"
-  },
   "footer": {
-    "copyright": "Авторські права © 2023 Plan Race"
+    "copyright": "Copyright © 2023 DobroMore"
   },
   "months": [
     "Січень", "Лютий", "Березень", "Квітень", "Травень", "Червень",
     "Липень", "Серпень", "Вересень", "Жовтень", "Листопад", "Грудень"
   ],
-  "searchBar": {
-    "placeholder": "Пошук активності...",
-    "button": "Пошук"
-  },
-  "navTabs": {
-    "competitions": "Змагання",
-    "activity": "Активність",
-    "trainings": "Тренування",
-    "camps": "Табори"
-  },
-  "main": {
-    "sendEvent": "Відправити подію"
+  "navLinks": {
+    "about": "Про нас",
+    "blog": "Блог",
+    "archive": "Архів",
+    "recoveryProgram": "Програма відновлення",
+    "dobroNorth": "ДоброМоре Північ",
+    "dobroSouth": "ДоброМоре Південь",
+    "press": "Преса"
   }
 }

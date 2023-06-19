@@ -1,74 +1,18 @@
 {
-  "header": {
-    "search": "Recherche",
-    "login": "Connexion",
-    "register": "S'inscrire",
-    "showMaps": "Afficher la carte",
-    "changeTheme": "Changer de thème"
-  },
-  "locationInfo": {
-    "country": "Pays",
-    "city": "Ville"
-  },
-  "submitEventForm": {
-    "title": "Soumettre le lien de l'événement",
-    "placeholder": "Entrez le lien de l'événement...",
-    "submit": "Soumettre"
-  },
-  "register": {
-    "confirmPassword": "Confirmer le mot de passe",
-    "back": "Revenir en arrière"
-  },
-  "signUp": {
-    "title": "S'inscrire",
-    "email": "Email",
-    "password": "Mot de passe",
-    "confirmPassword": "Confirmer le mot de passe",
-    "submit": "S'inscrire",
-    "google": "S'inscrire avec Google",
-    "facebook": "S'inscrire avec Facebook",
-    "linkedin": "S'inscrire avec Linkedin",
-    "subtitle": "Ou inscrivez-vous avec un e-mail",
-    "registered": "Déjà inscrit ? Connectez-vous !"
-  },
-  "signIn": {
-    "title": "Connexion",
-    "email": "Email",
-    "password": "Mot de passe",
-    "submit": "Connexion",
-    "google": "Se connecter avec Google",
-    "facebook": "Se connecter avec Facebook",
-    "linkedin": "Se connecter avec Linkedin",
-    "subtitle": "Ou connectez-vous avec un e-mail",
-    "registered": "Pas encore inscrit ? Inscrivez-vous !"
-  },
-  "eventCard": {
-    "viewEvent": "Voir l'événement",
-    "register": "S'inscrire",
-    "distanceToUser": "Distance à l'utilisateur : {{distance}} km",
-    "runDistance": "Course : {{distance}} km",
-    "swimDistance": "Natation : {{distance}} km",
-    "bikeDistance": "Vélo : {{distance}} km",
-    "elevation": "Dénivelé : {{elevation}} m"
-  },
   "footer": {
-    "copyright": "Droit d'auteur © 2023 Plan Race"
+    "copyright": "Droits d'auteur © 2023 DobroMore"
   },
   "months": [
     "Janvier", "Février", "Mars", "Avril", "Mai", "Juin",
     "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"
   ],
-  "searchBar": {
-    "placeholder": "Recherche d'activités...",
-    "button": "Recherche"
-  },
-  "navTabs": {
-    "competitions": "Compétitions",
-    "activity": "Activité",
-    "trainings": "Entraînements",
-    "camps": "Camps"
-  },
-  "main": {
-    "sendEvent": "Envoyer un événement"
+  "navLinks": {
+    "about": "À propos",
+    "blog": "Blog",
+    "archive": "Archive",
+    "recoveryProgram": "Programme de rétablissement",
+    "dobroNorth": "DobroPlus Nord",
+    "dobroSouth": "DobroPlus Sud",
+    "press": "Presse"
   }
 }

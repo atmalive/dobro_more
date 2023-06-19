@@ -1,15 +1,17 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 const NavBar = () => {
+    const { t } = useTranslation()
     const navLinks = [
-        { to: '/about', text: 'About' },
-        { to: '/', text: 'Blog' },
-        { to: '/archive', text: 'Archive' },
-        { to: '/recovery', text: 'Recovery program' },
-        { to: '/dobroNorth', text: 'ВobroMore North' },
-        { to: '/dobroSouth', text: 'ВobroMore South' },
-        { to: '/press', text: 'Press' },
+        { to: '/about', text: t('navLinks.about') },
+        { to: '/', text: t('navLinks.blog') },
+        { to: '/archive', text: t('navLinks.archive') },
+        { to: '/recovery', text: t('navLinks.recoveryProgram') },
+        { to: '/dobroNorth', text: t('navLinks.dobroNorth') },
+        { to: '/dobroSouth', text: t('navLinks.dobroSouth') },
+        { to: '/press', text: t('navLinks.press') },
     ];
 
     return (
