@@ -1,4 +1,7 @@
 {
+  "header": {
+    "title": "NON-PROFIT REHABILITATION AND EDUCATION CENTER"
+  },
   "footer": {
     "copyright": "Copyright © 2023 DobroMore"
   },
@@ -14,5 +17,27 @@
     "dobroNorth": "DobroMore North",
     "dobroSouth": "DobroMore South",
     "press": "Press"
+  },
+  "barCards": {
+    "goodseaClub": {
+      "title": "DobroMore CLUB",
+      "content": "We invite everyone who wants to do good together. Your participation will bring real benefits to children and parents.",
+      "linkDesc": "Write to us"
+    },
+    "donations": {
+      "title": "Donations",
+      "content": "Be close from afar. Provide real help - help the center develop and do more good.",
+      "linkDesc": "Donate"
+    },
+    "volunteering": {
+      "title": "Volunteering",
+      "content": "To selflessly help people - not everyone is capable. Living for the smile and joy of a needy child - priceless.",
+      "linkDesc": "Become a volunteer"
+    }
+  },
+  "sidebarRight": {
+    "partnershipTitle": "Partnership",
+    "partnershipContent": "The center exists thanks to your support. To continue our work, we invite commercial and non-profit organizations, foundations, volunteers and volunteer associations, teachers, specialists in the field of psychology, medicine, psychotherapy. We won't refuse any help!",
+    "learnMore": "Learn more"
   }
 }

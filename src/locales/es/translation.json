@@ -1,4 +1,7 @@
 {
+  "header": {
+    "title": "CENTRO DE REHABILITACIÓN Y EDUCACIÓN SIN ÁNIMO DE LUCRO"
+  },
   "footer": {
     "copyright": "Derechos de autor © 2023 DobroMore"
   },
@@ -14,5 +17,28 @@
     "dobroNorth": "DobroMas Norte",
     "dobroSouth": "DobroMas Sur",
     "press": "Prensa"
+  },
+  "barCards": {
+    "goodseaClub": {
+      "title": "DobroMore CLUB",
+      "content": "Invitamos a todos los que quieran hacer el bien juntos. Tu participación traerá beneficios reales a los niños y a los padres.",
+      "linkDesc": "Escríbenos"
+    },
+    "donations": {
+      "title": "Donaciones",
+      "content": "Estar cerca desde lejos. Proporciona ayuda real: ayuda al centro a desarrollarse y hacer más bien.",
+      "linkDesc": "Donar"
+    },
+    "volunteering": {
+      "title": "Voluntariado",
+      "content": "Ayudar a las personas de forma desinteresada: no todos son capaces. Vivir por la sonrisa y la alegría de un niño necesitado: no tiene precio.",
+      "linkDesc": "Hacerse voluntario"
+    }
+  },
+  "sidebarRight": {
+    "partnershipTitle": "Colaboración",
+    "partnershipContent": "El centro existe gracias a tu apoyo. Para continuar con nuestro trabajo, invitamos a organizaciones comerciales y sin ánimo de lucro, fundaciones, voluntarios y asociaciones de voluntarios, maestros, especialistas en psicología, medicina, psicoterapia. ¡No rechazamos ninguna ayuda!",
+    "learnMore": "Saber más"
   }
+
 }

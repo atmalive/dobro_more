@@ -1,4 +1,7 @@
 {
+  "header": {
+    "title": "CENTRE DE RÉÉDUCATION ET D'ÉDUCATION NON COMMERCIAL"
+  },
   "footer": {
     "copyright": "Droits d'auteur © 2023 DobroMore"
   },
@@ -14,5 +17,28 @@
     "dobroNorth": "DobroPlus Nord",
     "dobroSouth": "DobroPlus Sud",
     "press": "Presse"
+  },
+  "barCards": {
+    "goodseaClub": {
+      "title": "DobroMore CLUB",
+      "content": "Nous invitons tout le monde à faire le bien ensemble. Votre participation apportera des bénéfices réels aux enfants et aux parents.",
+      "linkDesc": "Ecrivez-nous"
+    },
+    "donations": {
+      "title": "Dons",
+      "content": "Soyez proche de loin. Apportez une aide réelle - aidez le centre à se développer et à faire plus de bien.",
+      "linkDesc": "Faire un don"
+    },
+    "volunteering": {
+      "title": "Bénévolat",
+      "content": "Aider les gens de manière désintéressée - tout le monde n'en est pas capable. Vivre pour le sourire et la joie d'un enfant dans le besoin - inestimable.",
+      "linkDesc": "Devenir bénévole"
+    }
+  },
+  "sidebarRight": {
+    "partnershipTitle": "Partenariat",
+    "partnershipContent": "Le centre existe grâce à votre soutien. Pour continuer notre travail, nous invitons les organisations commerciales et à but non lucratif, les fondations, les bénévoles et les associations de bénévoles, les enseignants, les spécialistes en psychologie, médecine, psychothérapie. Nous ne refusons aucune aide!",
+    "learnMore": "En savoir plus"
   }
+
 }

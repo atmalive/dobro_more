@@ -1,4 +1,7 @@
 {
+  "header": {
+    "title": "NEKOMERCIJALNI REHABILITACIONI I OBRAZOVNI CENTAR"
+  },
   "footer": {
     "copyright": "Autorska prava © 2023 DobroMore"
   },
@@ -14,5 +17,28 @@
     "dobroNorth": "DobroMore Sjever",
     "dobroSouth": "DobroMore Jug",
     "press": "Štampa"
+  },
+  "barCards": {
+    "goodseaClub": {
+      "title": "DobroMore CLUB",
+      "content": "Pozivamo sve koji žele da čine dobro zajedno. Vaše učešće donijeće stvarne koristi djeci i roditeljima.",
+      "linkDesc": "Pišite nam"
+    },
+    "donations": {
+      "title": "Donacije",
+      "content": "Budite blizu iz daleka. Pružite stvarnu pomoć - pomozite centru da se razvija i čini više dobra.",
+      "linkDesc": "Doniraj"
+    },
+    "volunteering": {
+      "title": "Volontiranje",
+      "content": "Nesebično pomoći ljudima - ne mogu svi. Živjeti za osmijeh i radost potrebne djece - neprocjenjivo.",
+      "linkDesc": "Postanite volonter"
+    }
+  },
+  "sidebarRight": {
+    "partnershipTitle": "Partnerstvo",
+    "partnershipContent": "Centar postoji zahvaljujući vašoj podršci. Da bismo nastavili naš rad, pozivamo komercijalne i neprofitne organizacije, fondacije, volontere i udruženja volontera, nastavnike, stručnjake iz oblasti psihologije, medicine, psihoterapije. Ne odbijamo nikakvu pomoć!",
+    "learnMore": "Saznajte više"
   }
+
 }

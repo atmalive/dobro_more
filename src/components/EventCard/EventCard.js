@@ -46,9 +46,6 @@ const EventCard = ({ event }) => {
                 <p className='text-gray-600 '>{event.date}</p>
                 <p className='text-gray-600 '>{event.place}</p>
                 <p className='text-gray-600 '>{event.type}</p>
-                <p className='text-gray-600 '>
-                    {t('event.distance', { distance: event.distance })}
-                </p>
 
             </div>
             <img
@@ -67,10 +64,6 @@ const EventCard = ({ event }) => {
                             </h1>
                             <p className='text-gray-600 mb-2'>{event.date}</p>
                             <p className='text-gray-600 mb-2'>{event.place}</p>
-                            <p className='text-gray-600 mb-2'>{event.type}</p>
-                            <p className='text-gray-600 mb-2'>
-                                {t('event.distance', { distance: event.distance })}
-                            </p>
                         </div>
                     </div>
 

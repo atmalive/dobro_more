@@ -1,4 +1,7 @@
 {
+  "header": {
+    "title": "NICHTKOMMERZIELLES REHABILITATIONS- UND BILDUNGSZENTRUM"
+  },
   "footer": {
     "copyright": "Urheberrecht © 2023 DobroMore"
   },
@@ -14,5 +17,28 @@
     "dobroNorth": "DobroMehr Nord",
     "dobroSouth": "DobroMehr Süd",
     "press": "Presse"
+  },
+  "barCards": {
+    "goodseaClub": {
+      "title": "DobroMore CLUB",
+      "content": "Wir laden alle ein, die gemeinsam Gutes tun wollen. Ihre Teilnahme wird echte Vorteile für Kinder und Eltern bringen.",
+      "linkDesc": "Schreiben Sie uns"
+    },
+    "donations": {
+      "title": "Spenden",
+      "content": "Seien Sie aus der Ferne nah. Leisten Sie echte Hilfe - helfen Sie dem Zentrum, sich zu entwickeln und mehr Gutes zu tun.",
+      "linkDesc": "Spenden"
+    },
+    "volunteering": {
+      "title": "Freiwilligenarbeit",
+      "content": "Selbstlos Menschen zu helfen - dazu ist nicht jeder in der Lage. Für das Lächeln und die Freude eines bedürftigen Kindes zu leben - unbezahlbar.",
+      "linkDesc": "Freiwilliger werden"
+    }
+  },
+  "sidebarRight": {
+    "partnershipTitle": "Partnerschaft",
+    "partnershipContent": "Das Zentrum existiert dank Ihrer Unterstützung. Um unsere Arbeit fortzusetzen, laden wir kommerzielle und gemeinnützige Organisationen, Stiftungen, Freiwillige und Freiwilligenverbände, Lehrer, Spezialisten im Bereich Psychologie, Medizin, Psychotherapie ein. Wir lehnen keine Hilfe ab!",
+    "learnMore": "Mehr erfahren"
   }
+
 }
