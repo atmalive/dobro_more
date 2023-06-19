@@ -8,7 +8,7 @@ export const Archive = () => {
 
     return (
         <>
-            <section className='container w-full flex gap-10 pt-10'>
+            <section className='container w-full flex flex-col sm:flex-row gap-10 pt-10'>
                 <EventGrid eventsBlog={pastEvents} />
                 <SideBarRight />
             </section>
