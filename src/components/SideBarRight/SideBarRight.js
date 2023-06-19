@@ -23,7 +23,14 @@ const SideBarRight = () => {
                     <div className='p-4'>
                         <h2 className='font-bold text-xl mb-2'>{card.title}</h2>
                         <p className='mb-2'>{card.content}</p>
-                        <a href={card.linkUrl} className='text-blue-500 hover:underline'>Learn more</a>
+                        <a
+                            href={card.linkUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className='text-blue-500 hover:underline'
+                        >
+                            {card.linkDesc}
+                        </a>
                     </div>
                 </div>
             ))}

@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next'
 import Popup from '../Popup/Popup'
 import CloseButton from '../CloseButton/CloseButton'
 
-
 const EventCard = ({ event }) => {
     const { t } = useTranslation()
     const [isPopupOpen, setPopupOpen] = useState(false)
@@ -44,9 +43,7 @@ const EventCard = ({ event }) => {
                     {event.title}
                 </h2>
                 <p className='text-gray-600 '>{event.date}</p>
-                <p className='text-gray-600 '>{event.place}</p>
-                <p className='text-gray-600 '>{event.type}</p>
-
+                <p className='text-gray-600 '>{event.country}, {event.city}</p>
             </div>
             <img
                 src={
@@ -63,9 +60,17 @@ const EventCard = ({ event }) => {
                                 {event.title}
                             </h1>
                             <p className='text-gray-600 mb-2'>{event.date}</p>
-                            <p className='text-gray-600 mb-2'>{event.place}</p>
+                            <p className='text-gray-600 mb-2'>{event.country}, {event.city}</p>
+                            <p className='text-gray-600 mb-2'>{event.description.join(' ')}</p>
                         </div>
                     </div>
+                    <img
+                        src={
+                            event.images && event.images.length > 0 ? event.images[0] : 'fallback-image-url'
+                        }
+                        alt={event.title}
+                        className='w-full h-48 opacity-80 object-contain'
+                    />
 
                     <div className='flex-grow'></div>
 
@@ -83,7 +88,7 @@ const EventCard = ({ event }) => {
 
                     <button className='text-center'>
                         <a
-                            href={event.link}
+                            href={event.registrationLink}
                             target='_blank'
                             rel='noopener noreferrer'
                             className='mt-4 inline-block bg-blue-500 text-white py-2 px-8 rounded-md'
