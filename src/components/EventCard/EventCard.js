@@ -2,11 +2,10 @@ import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import Popup from '../Popup/Popup'
 import CloseButton from '../CloseButton/CloseButton'
-import { BookmarkCardIcon } from '../../utils/Icons'
+
 
 const EventCard = ({ event }) => {
     const { t } = useTranslation()
-    const [isSaved, setIsSaved] = useState(false)
     const [isPopupOpen, setPopupOpen] = useState(false)
 
     const handleOpenPopup = () => {
@@ -15,11 +14,6 @@ const EventCard = ({ event }) => {
 
     const handleClosePopup = () => {
         setPopupOpen(false)
-    }
-
-    const handleClick = (e) => {
-        e.stopPropagation()
-        setIsSaved(!isSaved)
     }
 
     useEffect(() => {
@@ -35,9 +29,6 @@ const EventCard = ({ event }) => {
         }
     }, [])
 
-    useEffect(() => {
-        console.log('isSaved', isSaved)
-    }, [isSaved])
 
     useEffect(() => {
         console.log('isPopupOpen', isPopupOpen)
@@ -48,8 +39,6 @@ const EventCard = ({ event }) => {
             onClick={handleOpenPopup}
             className='relative rounded-lg overflow-hidden border max-w-sm min-h-[400px] border-gray-300 bg-white flex flex-col justify-between items-center'
         >
-            <BookmarkCardIcon isSaved={isSaved} handleClick={handleClick} />
-
             <div className='p-4 cursor-pointer flex flex-col items-center justify-start '>
                 <h2 className='text-xl font-bold mb-2 text-gray-900'>
                     {event.title}
