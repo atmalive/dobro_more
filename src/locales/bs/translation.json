@@ -1,0 +1,74 @@
+{
+  "header": {
+    "search": "Pretraga",
+    "login": "Prijavi se",
+    "register": "Registruj se",
+    "showMaps": "Prikaži mapu",
+    "changeTheme": "Promijeni temu"
+  },
+  "locationInfo": {
+    "country": "Država",
+    "city": "Grad"
+  },
+  "submitEventForm": {
+    "title": "Pošalji link događaja",
+    "placeholder": "Unesi link događaja...",
+    "submit": "Pošalji"
+  },
+  "register": {
+    "confirmPassword": "Potvrdi lozinku",
+    "back": "Vrati se"
+  },
+  "signUp": {
+    "title": "Registruj se",
+    "email": "Email",
+    "password": "Lozinka",
+    "confirmPassword": "Potvrdi lozinku",
+    "submit": "Registruj se",
+    "google": "Registruj se sa Google",
+    "facebook": "Registruj se sa Facebook",
+    "linkedin": "Registruj se sa LinkedIn",
+    "subtitle": "Ili se registruj putem email-a",
+    "registered": "Registrovani? Prijavi se!"
+  },
+  "signIn": {
+    "title": "Prijavi se",
+    "email": "Email",
+    "password": "Lozinka",
+    "submit": "Prijavi se",
+    "google": "Prijavi se sa Google",
+    "facebook": "Prijavi se sa Facebook",
+    "linkedin": "Prijavi se sa LinkedIn",
+    "subtitle": "Ili se prijavi putem email-a",
+    "registered": "Niste registrovani? Registrujte se!"
+  },
+  "eventCard": {
+    "viewEvent": "Pogledaj događaj",
+    "register": "Registruj se",
+    "distanceToUser": "Udaljenost do korisnika: {{distance}} km",
+    "runDistance": "Trčanje: {{distance}} km",
+    "swimDistance": "Plivanje: {{distance}} km",
+    "bikeDistance": "Vožnja bicikla: {{distance}} km",
+    "elevation": "Visinska razlika: {{elevation}} m"
+  },
+  "footer": {
+    "copyright": "Autorska prava © 2023 Plan Race"
+  },
+  "months": [
+    "Januar", "Februar", "Mart", "April", "Maj", "Juni",
+    "Juli", "August", "Septembar", "Oktobar", "Novembar", "Decembar"
+  ],
+  "searchBar": {
+    "placeholder": "Pretraga aktivnosti...",
+    "button": "Pretraga"
+  },
+  "navTabs": {
+    "competitions": "Takmičenja",
+    "activity": "Aktivnosti",
+    "trainings": "Treninzi",
+    "camps": "Kampovi"
+  },
+  "main": {
+    "sendEvent": "Pošalji događaj"
+  }
+}

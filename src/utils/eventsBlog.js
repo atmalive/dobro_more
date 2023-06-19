@@ -1,0 +1,186 @@
+export const eventsBlog = [
+    {
+        title: 'Maslenica',
+        images: [
+            'https://begaem.com/wp-content/uploads/2021/08/traillab-3-e1629796574878-900x589.jpg',
+            'https://photos.lookatisrael.com/misc/alona/lj/41820710.jpg',
+        ],
+        video: [],
+        date: '2023-06-04',
+        description: [
+            'The start of the all race will be near the medieval Rača monastery. Two longer races will take you uphill to Kaluđerske Bar, and lake Jarevac. the trails split at Račanska šljivovica and the ultra goes over the highest peak of Tara Mt. – Zborište, at 1545 meters high, then over the peak of Gavran, past the breathtaking viewpoints: Banjska stena, Osluša and Sokolarica. TUT 75 and TUT 28 are joining again at Sokolina plateau.The highlights are the Lađevac waterfall and the Rača river canyon. The shortest trail takes you through attractive surroundings of the Rača monastery and further towards Bajina Bašta.',
+        ],
+        country: 'Bosnia & Herzegovina',
+        city: 'Banja Luka',
+        type: 'Road',
+        link: 'https://runandmore.org/bs/utrka/registracija?race_id=42',
+        registrationLink: 'https://example.com/event1/registration',
+        deadlineReg: null,
+        latitude: null,
+        longitude: null,
+        address: 'Q6H3+HJ, Banja Luka 78000, Bosnia & Herzegovina',
+        organizers: ['Run&More Community'],
+        runDistance: [{ distance: 5, elevation: null }],
+        swimDistance: [],
+        bikeDistance: [],
+        category: ['man', 'woman'],
+    },
+    {
+        title: 'BANJALUKA',
+        images: [
+            'https://photos.lookatisrael.com/misc/alona/lj/41820710.jpg',
+        ],
+        video: [],
+        date: '2023-06-04',
+        description: [
+            'The start of the all race will be near the medieval Rača monastery. Two longer races will take you uphill to Kaluđerske Bar, and lake Jarevac. the trails split at Račanska šljivovica and the ultra goes over the highest peak of Tara Mt. – Zborište, at 1545 meters high, then over the peak of Gavran, past the breathtaking viewpoints: Banjska stena, Osluša and Sokolarica. TUT 75 and TUT 28 are joining again at Sokolina plateau.The highlights are the Lađevac waterfall and the Rača river canyon. The shortest trail takes you through attractive surroundings of the Rača monastery and further towards Bajina Bašta.',
+        ],
+        country: 'Bosnia & Herzegovina',
+        city: 'Banja Luka',
+        type: 'Road',
+        link: 'https://runandmore.org/bs/utrka/registracija?race_id=42',
+        registrationLink: 'https://example.com/event1/registration',
+        deadlineReg: null,
+        latitude: null,
+        longitude: null,
+        address: 'Q6H3+HJ, Banja Luka 78000, Bosnia & Herzegovina',
+        organizers: ['Run&More Community'],
+        runDistance: [{ distance: 5, elevation: null }],
+        swimDistance: [],
+        bikeDistance: [],
+        category: ['man', 'woman'],
+    },
+    {
+        title: 'm:tel RMC BANJALUKA POLUMARATON',
+        images: [
+            'https://polako.run/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6dfe75fa-5902-4145-a381-57d5c1779135%2Fimage_(3).png?id=62b93635-92d7-4cdc-b97c-87dffeda1a0e&table=block&spaceId=5c7feba7-8657-4990-b86d-c0cf719d4e21&width=600&userId=&cache=v2',
+            'https://begaem.com/wp-content/uploads/2021/08/traillab-3-e1629796574878-900x589.jpg',
+            'https://photos.lookatisrael.com/misc/alona/lj/41820710.jpg',
+        ],
+        video: [],
+        date: '2023-06-04',
+        description: [
+            'The start of the all race will be near the medieval Rača monastery. Two longer races will take you uphill to Kaluđerske Bar, and lake Jarevac. the trails split at Račanska šljivovica and the ultra goes over the highest peak of Tara Mt. – Zborište, at 1545 meters high, then over the peak of Gavran, past the breathtaking viewpoints: Banjska stena, Osluša and Sokolarica. TUT 75 and TUT 28 are joining again at Sokolina plateau.The highlights are the Lađevac waterfall and the Rača river canyon. The shortest trail takes you through attractive surroundings of the Rača monastery and further towards Bajina Bašta.',
+        ],
+        country: 'Bosnia & Herzegovina',
+        city: 'Banja Luka',
+        type: 'Road',
+        link: 'https://runandmore.org/bs/utrka/registracija?race_id=42',
+        registrationLink: 'https://example.com/event1/registration',
+        deadlineReg: null,
+        latitude: null,
+        longitude: null,
+        address: 'Q6H3+HJ, Banja Luka 78000, Bosnia & Herzegovina',
+        organizers: ['Run&More Community'],
+        runDistance: [{ distance: 5, elevation: null }],
+        swimDistance: [],
+        bikeDistance: [],
+        category: ['man', 'woman'],
+    },
+
+    {
+        title: 'Tara ultra trail',
+        images: [
+            'https://taraultratrail.rs/wp-content/uploads/2023/03/TUT-logo-salomon-1.png',
+            'https://runtrace.net/races/images/events/rsz_tut_1671903781_445743.jpg',
+        ],
+        video: ['https://youtu.be/N5lJ0ijx4-w'],
+        date: '2023-07-01',
+        description: [
+            'Četvrto izdanje Tara Ultra trail-a, koje će se održati prvog vikenda jula (01.-02.07.2023.) obeležiće delimično nove staze, uz prolazak pored brojnih atraktivnih mesta najlepše planine Srbije. Centar dešavanja ovoga puta je Bajina Bašta, gde će biti cilj svih trka. Na meniju će biti više nego ozbiljna ultra od 75 km, ali i dve kraće distance od 28km i 12 km. Zakazujemo vam još jedan prelep vikend na Tari.\n' +
+                '\n' +
+                'Start svih trka je planiran kod srednjevekovnog manastira Rača. Dve duže staze će vas voditi usponom do Kaluđerskih Bara, i jezera Jarevac. Staze se razdvajaju na Račanskoj šljivovici i ultra ide preko najvišeg vrha Tare  – Zborišta, na 1545 metara visine, zatim preko vrha Gavrana, pored vidikovaca koji oduzimaju dah: Banjska stena, Osluša i Sokolarica. Staze se ponovo spajaju na platou Sokolina. Posebne atrakcije predstavljaju vodopad Lađevac i kanjon reke Rače. Mala staza vas vodi atraktivnim terenima oko manastira Rača i dalje ka Bajinoj Bašti.\n' +
+                '\n' +
+                'Ovo su samo neki od razloga da prvi vikend jula bude rezervisan za Taru i TUT! Dobro došli na Taru!\n' +
+                '\n' +
+                'The fourth edition of the Tara Ultra trail (first weekend of July 01-02, 2023.), will feature partially new trails, passing by numerous attractive places on the most beautiful mountain in Serbia. The center of manifestation is Bajina Bašta, where the finish of all races will be. On the menu will be more than a serious ultra of 75 km, but also two shorter distances of 28 km and 12 km. We are planning another beautiful weekend on Tara.\n' +
+                '\n' +
+                'The start of the all race will be near the medieval Rača monastery. Two longer races will take you uphill to Kaluđerske Bar, and  lake Jarevac. the trails split at Račanska šljivovica and the ultra goes over the highest peak of Tara Mt. - Zborište, at 1545 meters high, then over the peak of Gavran, past the breathtaking viewpoints: Banjska stena, Osluša and Sokolarica. TUT 75 and TUT 28 are joining again at Sokolina plateau.The highlights are the Lađevac waterfall and the Rača river canyon. The shortest trail takes you through attractive surroundings of the Rača monastery and further towards Bajina Bašta.\n' +
+                '\n' +
+                'These are just some of the reasons why the first weekend of July should be reserved for Tara and TUT! Welcome to Tara!',
+        ],
+        country: 'Bosnia & Herzegovina',
+        city: 'Banja Luka',
+        type: 'Trail',
+        link: 'https://runandmore.org/bs/utrka/registracija?race_id=42',
+        registrationLink: 'https://runtrace.net/?event=tut2023',
+        deadlineReg: null,
+        latitude: null,
+        longitude: null,
+        address: 'Q6H3+HJ, Banja Luka 78000, Bosnia & Herzegovina',
+        organizers: ['Run&More Community'],
+        runDistance: [
+            { distance: 14, elevation: 650 },
+            { distance: 28, elevation: 1600 },
+            { distance: 75, elevation: 4000 },
+        ],
+        swimDistance: [],
+        bikeDistance: [],
+        category: ['man', 'woman'],
+    },
+
+    {
+        title: 'Bjelasica Trail',
+        images: [
+            'https://bjelasicatrail.me/wp-content/uploads/2023/03/cropped-bjelasica-trail-logo.jpg',
+            'https://bjelasicatrail.me/wp-content/uploads/2023/03/received_1515709148849066.jpeg',
+        ],
+        video: ['https://www.youtube.com/watch?v=S8oP6642Ckg'],
+        date: '2023-08-06',
+        description: [
+            'Bjelasica Trail provides naturally tailored mountain running races for both recreational and professional athletes and also for all the people with strong feel and connection with nature. We have prepared three distances (45km, 21km and 10km) where you will be in position to run through one of the most beautiful landscapes on Balkan, also stride along glacial lakes with exceptional views and take a chill at numerous old traditional wooden lodges. With strong beliefs in promoting trail running as a sport and healthy lifestyle we welcome you to join us on our journey!',
+        ],
+        country: 'Montenegro',
+        city: 'Kolašin',
+        type: 'Trail',
+        link: 'https://bjelasicatrail.me',
+        registrationLink: 'https://bjelasicatrail.me/uplate/',
+        deadlineReg: null,
+        latitude: null,
+        longitude: null,
+        address: null,
+        organizers: [],
+        runDistance: [
+            { distance: 10, elevation: null },
+            { distance: 21, elevation: null },
+            { distance: 42, elevation: null },
+        ],
+        swimDistance: [],
+        bikeDistance: [],
+        category: [],
+    },
+
+    {
+        title: 'Jagodinski Polumaraton 2023',
+        images: [
+            'https://polako.run/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F01f4c7c5-c4a3-4c38-92e1-4e347b603540%2FJagodinski_1676918317_682159.png?table=block&id=4512d959-c760-4378-95f3-ce9957adcd07&spaceId=5c7feba7-8657-4990-b86d-c0cf719d4e21&width=600&userId=&cache=v2',
+            'https://www.jagodinskimaraton.rs/images/baner.jpg',
+        ],
+        video: ['https://youtu.be/N5lJ0ijx4-w'],
+        date: '2023-09-03',
+        description: [
+            'All runners who have paid the entry fee for the race that has been postponed, the valid registration is transferred.',
+            'This year, for technical reasons, it is not possible to hold the 42 km race.',
+            'All runners who paid for the marathon distance were transferred to the half-marathon race.',
+            'Runners who are unable to run on September 3, 2023 can transfer the entry fee to 2024 or request a refund.',
+        ],
+        country: 'Serbia',
+        city: 'Jagodina',
+        type: 'Road',
+        link: 'https://www.jagodinskimaraton.rs/index.html',
+        registrationLink: null,
+        deadlineReg: null,
+        latitude: null,
+        longitude: null,
+        address: null,
+        organizers: [],
+        runDistance: [
+            { distance: 5, elevation: null },
+            { distance: 10, elevation: null },
+            { distance: 21, elevation: null },
+        ],
+        category: [],
+        swimDistance: [],
+        bikeDistance: [],
+    },
+]

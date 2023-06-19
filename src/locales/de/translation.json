@@ -1,0 +1,74 @@
+{
+  "header": {
+    "search": "Suche",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "showMaps": "Karte anzeigen",
+    "changeTheme": "Thema ändern"
+  },
+  "locationInfo": {
+    "country": "Land",
+    "city": "Stadt"
+  },
+  "submitEventForm": {
+    "title": "Eventlink einreichen",
+    "placeholder": "Eventlink eingeben...",
+    "submit": "Einreichen"
+  },
+  "register": {
+    "confirmPassword": "Passwort bestätigen",
+    "back": "Zurück gehen"
+  },
+  "signUp": {
+    "title": "Registrieren",
+    "email": "Email",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "submit": "Registrieren",
+    "google": "Mit Google registrieren",
+    "facebook": "Mit Facebook registrieren",
+    "linkedin": "Mit Linkedin registrieren",
+    "subtitle": "Oder per E-Mail registrieren",
+    "registered": "Schon registriert? Anmelden!"
+  },
+  "signIn": {
+    "title": "Anmelden",
+    "email": "Email",
+    "password": "Passwort",
+    "submit": "Anmelden",
+    "google": "Mit Google anmelden",
+    "facebook": "Mit Facebook anmelden",
+    "linkedin": "Mit Linkedin anmelden",
+    "subtitle": "Oder per E-Mail anmelden",
+    "registered": "Noch nicht registriert? Registrieren!"
+  },
+  "eventCard": {
+    "viewEvent": "Event ansehen",
+    "register": "Registrieren",
+    "distanceToUser": "Entfernung zum Benutzer: {{distance}} km",
+    "runDistance": "Laufen: {{distance}} km",
+    "swimDistance": "Schwimmen: {{distance}} km",
+    "bikeDistance": "Radfahren: {{distance}} km",
+    "elevation": "Höhenunterschied: {{elevation}} m"
+  },
+  "footer": {
+    "copyright": "Urheberrecht © 2023 Plan Race"
+  },
+  "months": [
+    "Januar", "Februar", "März", "April", "Mai", "Juni",
+    "Juli", "August", "September", "Oktober", "November", "Dezember"
+  ],
+  "searchBar": {
+    "placeholder": "Aktivitätensuche...",
+    "button": "Suche"
+  },
+  "navTabs": {
+    "competitions": "Wettbewerbe",
+    "activity": "Aktivität",
+    "trainings": "Trainings",
+    "camps": "Camps"
+  },
+  "main": {
+    "sendEvent": "Event senden"
+  }
+}

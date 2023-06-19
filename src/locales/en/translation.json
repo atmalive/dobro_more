@@ -1,0 +1,74 @@
+{
+  "header": {
+    "search": "Search",
+    "login": "Log in",
+    "register": "Sign up",
+    "showMaps": "Show map",
+    "changeTheme": "Change Theme"
+  },
+  "locationInfo": {
+    "country": "Country",
+    "city": "City"
+  },
+  "submitEventForm": {
+    "title": "Submit event link",
+    "placeholder": "Enter the event link...",
+    "submit": "Submit"
+  },
+  "register": {
+      "confirmPassword": "Confirm password",
+      "back": "Go back"
+  },
+  "signUp": {
+    "title": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "submit": "Sign Up",
+    "google": "Sign Up with Google",
+    "facebook": "Sign Up with Facebook",
+    "linkedin": "Sign Up with Linkedin",
+    "subtitle": "Or sign up with e-mail",
+    "registered": "Registered? Sign in!"
+  },
+  "signIn": {
+    "title": "Log In",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Log In",
+    "google": "Sign in with Google",
+    "facebook": "Sign in with Facebook",
+    "linkedin": "Sign in with Linkedin",
+    "subtitle": "Or sign in with e-mail",
+    "registered": "Not registered? register!"
+  },
+  "eventCard": {
+    "viewEvent": "View event",
+    "register": "Register",
+    "distanceToUser": "Distance to user: {{distance}} km",
+    "runDistance": "Run: {{distance}} km",
+    "swimDistance": "Swim: {{distance}} km",
+    "bikeDistance": "Bike: {{distance}} km",
+    "elevation": "Elevation: {{elevation}} m"
+  },
+  "footer": {
+    "copyright": "Copyright © 2023 Plan Race"
+  },
+  "months": [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+  ],
+  "searchBar": {
+    "placeholder": "Activity search...",
+    "button": "Search"
+  },
+  "navTabs": {
+    "competitions": "Competitions",
+    "activity": "Activity",
+    "trainings": "Trainings",
+    "camps": "Camps"
+  },
+  "main": {
+    "sendEvent": "Send event"
+  }
+}

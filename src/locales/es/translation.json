@@ -1,0 +1,74 @@
+{
+  "header": {
+    "search": "Buscar",
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "showMaps": "Mostrar mapa",
+    "changeTheme": "Cambiar tema"
+  },
+  "locationInfo": {
+    "country": "País",
+    "city": "Ciudad"
+  },
+  "submitEventForm": {
+    "title": "Enviar enlace del evento",
+    "placeholder": "Ingrese el enlace del evento...",
+    "submit": "Enviar"
+  },
+  "register": {
+    "confirmPassword": "Confirmar contraseña",
+    "back": "Volver"
+  },
+  "signUp": {
+    "title": "Registrarse",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "submit": "Registrarse",
+    "google": "Registrarse con Google",
+    "facebook": "Registrarse con Facebook",
+    "linkedin": "Registrarse con Linkedin",
+    "subtitle": "O registrarse con correo electrónico",
+    "registered": "¿Registrado? ¡Iniciar sesión!"
+  },
+  "signIn": {
+    "title": "Iniciar sesión",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "submit": "Iniciar sesión",
+    "google": "Iniciar sesión con Google",
+    "facebook": "Iniciar sesión con Facebook",
+    "linkedin": "Iniciar sesión con Linkedin",
+    "subtitle": "O iniciar sesión con correo electrónico",
+    "registered": "¿No está registrado? ¡Regístrese!"
+  },
+  "eventCard": {
+    "viewEvent": "Ver evento",
+    "register": "Registrarse",
+    "distanceToUser": "Distancia al usuario: {{distance}} km",
+    "runDistance": "Correr: {{distance}} km",
+    "swimDistance": "Nadar: {{distance}} km",
+    "bikeDistance": "Bicicleta: {{distance}} km",
+    "elevation": "Elevación: {{elevation}} m"
+  },
+  "footer": {
+    "copyright": "Derechos de autor © 2023 Plan Race"
+  },
+  "months": [
+    "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+    "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+  ],
+  "searchBar": {
+    "placeholder": "Búsqueda de actividad...",
+    "button": "Buscar"
+  },
+  "navTabs": {
+    "competitions": "Competencias",
+    "activity": "Actividad",
+    "trainings": "Entrenamientos",
+    "camps": "Campamentos"
+  },
+  "main": {
+    "sendEvent": "Enviar evento"
+  }
+}

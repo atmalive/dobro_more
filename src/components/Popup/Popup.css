@@ -1,0 +1,36 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.popup-overlay.open {
+    opacity: 1;
+}
+
+.popup-content {
+    background-color: white;
+    /*padding: 20px;*/
+    border-radius: 10px;
+    width: 85%;
+    height: 100%;
+    max-width: 1536px;
+    max-height: 90vh;
+    transform: scale(0.7);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.popup-content.open {
+    transform: scale(1);
+    opacity: 1;
+}

@@ -1,0 +1,75 @@
+
+{
+  "header": {
+    "search": "Претрага",
+    "login": "Пријави се",
+    "register": "Региструј се",
+    "showMaps": "Прикажи мапу",
+    "changeTheme": "Промени тему"
+  },
+  "locationInfo": {
+    "country": "Земља",
+    "city": "Град"
+  },
+  "submitEventForm": {
+    "title": "Пошаљи везу на догађај",
+    "placeholder": "Унеси везу на догађај...",
+    "submit": "Поднеси"
+  },
+  "register": {
+    "confirmPassword": "Потврди лозинку",
+    "back": "Иди назад"
+  },
+  "signUp": {
+    "title": "Региструј се",
+    "email": "Имејл",
+    "password": "Лозинка",
+    "confirmPassword": "Потврди лозинку",
+    "submit": "Региструј се",
+    "google": "Региструј се преко Гугла",
+    "facebook": "Региструј се преко Фејсбука",
+    "linkedin": "Региструј се преко ЛинкедИна",
+    "subtitle": "Или се региструјте преко имејла",
+    "registered": "Регистровани? Пријавите се!"
+  },
+  "signIn": {
+    "title": "Пријави се",
+    "email": "Имејл",
+    "password": "Лозинка",
+    "submit": "Пријави се",
+    "google": "Пријави се преко Google",
+    "facebook": "Пријави се преко Facebook",
+    "linkedin": "Пријави се преко LinkedIn",
+    "subtitle": "Или се пријавите преко email-a",
+    "registered": "Нисте регистровани? Региструјте се!"
+  },
+  "eventCard": {
+    "viewEvent": "Погледај догађај",
+    "register": "Региструј се",
+    "distanceToUser": "Удаљеност до корисника: {{distance}} km",
+    "runDistance": "Трчање: {{distance}} km",
+    "swimDistance": "Пливање: {{distance}} km",
+    "bikeDistance": "Вожња бицикла: {{distance}} km",
+    "elevation": "Надморска висина: {{elevation}} m"
+  },
+  "footer": {
+    "copyright": "Ауторска права © 2023 Plan Race"
+  },
+  "months": [
+    "Јануар", "Фебруар", "Март", "Април", "Мај", "Јун",
+    "Јул", "Август", "Септембар", "Октобар", "Новембар", "Децембар"
+  ],
+  "searchBar": {
+    "placeholder": "Претрага активности...",
+    "button": "Претрага"
+  },
+  "navTabs": {
+    "competitions": "Такмичења",
+    "activity": "Активност",
+    "trainings": "Тренинзи",
+    "camps": "Кампови"
+  },
+  "main": {
+    "sendEvent": "Пошаљи догађај"
+  }
+}

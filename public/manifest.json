@@ -1,0 +1,10 @@
+{
+  "short_name": "DobroVoda",
+  "name": "The DobroMore organization is engaged in charitable, educational and social projects",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
