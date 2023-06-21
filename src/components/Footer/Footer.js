@@ -1,20 +1,12 @@
 import { FacebookFooterIcon, GithubFooterIcon, InstagramFooterIcon } from '../../utils/Icons'
 import { useTranslation } from 'react-i18next'
 import { NavLink } from 'react-router-dom'
+import footerBg from '../../images/underwater.webp'
 
 
 const Footer = () => {
     const { t, i18n } = useTranslation()
 
-    const navLinks = [
-        { to: '/about', text: t('navLinks.about') },
-        { to: '/team', text: t('navLinks.blog') },
-        { to: '/archive', text: t('navLinks.archive') },
-        { to: '/recovery', text: t('navLinks.recoveryProgram') },
-        { to: '/dobroNorth', text: t('navLinks.dobroNorth') },
-        { to: '/dobroSouth', text: t('navLinks.dobroSouth') },
-        { to: '/press', text: t('navLinks.press') },
-    ]
     return (
         <footer className='bg-white mt-12'>
             <div className='container mx-auto w-full max-w-screen-x2'>
