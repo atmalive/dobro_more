@@ -31,8 +31,6 @@ const Header = () => {
 
             <div className='flex static sm:relative items-center justify-center w-full'></div>
 
-
-
             <NavBar />
         </header>
     )

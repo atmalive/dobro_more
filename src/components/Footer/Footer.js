@@ -57,24 +57,15 @@ const Footer = () => {
                         © 2023 <a href='#'>DobroMore™</a>. All Rights Reserved.
                     </span>
                     <div className='flex mt-4 space-x-6 sm:justify-center md:mt-0'>
-                        <a
-                            href='#'
-                            className='text-gray-400 hover:text-gray-900'
-                        >
+                        <a href='#' className='text-gray-400 hover:text-gray-900'>
                             <FacebookFooterIcon />
                             <span className='sr-only'>Facebook page</span>
                         </a>
-                        <a
-                            href='#'
-                            className='text-gray-400 hover:text-gray-900'
-                        >
+                        <a href='#' className='text-gray-400 hover:text-gray-900'>
                             <InstagramFooterIcon />
                             <span className='sr-only'>Instagram page</span>
                         </a>
-                        <a
-                            href='#'
-                            className='text-gray-400 hover:text-gray-900'
-                        >
+                        <a href='#' className='text-gray-400 hover:text-gray-900'>
                             <GithubFooterIcon />
                             <span className='sr-only'>GitHub account</span>
                         </a>

@@ -4,7 +4,7 @@ import SideBarRight from '../../components/SideBarRight/SideBarRight'
 
 export const Archive = () => {
     // фильтруем события, которые уже прошли
-    const pastEvents = eventsBlog.filter(event => new Date(event.date) <= new Date());
+    const pastEvents = eventsBlog.filter((event) => new Date(event.date) <= new Date())
 
     return (
         <>

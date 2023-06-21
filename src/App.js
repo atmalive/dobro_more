@@ -8,7 +8,6 @@ import { Press } from './pages/Press/Press'
 import { About } from './pages/About/About'
 import { Archive } from './pages/Archive/Archive'
 
-
 const App = () => {
     return (
         <Routes>

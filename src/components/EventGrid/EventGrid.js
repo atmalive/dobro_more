@@ -51,7 +51,7 @@ const EventGrid = ({ eventsBlog }) => {
             {Object.keys(groupedEvents).map((month) => (
                 <Fragment key={month}>
                     <div
-                        className="relative flex w-full items-center justify-between bg-white py-3 text-neutral-600 shadow-md hover:text-neutral-900 hover:shadow-lg focus:text-neutral-900 md:flex-wrap md:justify-start cursor-pointer px-3 gap-2 opacity-80"
+                        className='relative flex w-full items-center justify-between bg-white py-3 text-neutral-600 shadow-md hover:text-neutral-900 hover:shadow-lg focus:text-neutral-900 md:flex-wrap md:justify-start cursor-pointer px-3 gap-2 opacity-80'
                         onClick={() => toggleMonth(month)}
                         style={{ transition: 'background-color 0.3s ease' }}
                     >

@@ -12,7 +12,7 @@ const NavBar = () => {
         { to: '/dobroNorth', text: t('navLinks.dobroNorth') },
         { to: '/dobroSouth', text: t('navLinks.dobroSouth') },
         { to: '/press', text: t('navLinks.press') },
-    ];
+    ]
 
     return (
         <nav className='relative flex w-full items-center justify-center bg-white shadow-lg'>

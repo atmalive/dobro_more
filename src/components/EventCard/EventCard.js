@@ -29,54 +29,60 @@ const EventCard = ({ event }) => {
         }
     }, [])
 
-
     useEffect(() => {
         console.log('isPopupOpen', isPopupOpen)
     }, [isPopupOpen])
 
     return (
-        <div
-            onClick={handleOpenPopup}
-            className='relative cursor-pointer overflow-hidden border min-h-[400px] border-gray-100 bg-white flex flex-col justify-between items-center p-5  max-w-sm rounded-xl shadow-md'
-        >
-                <h2 className='text-xl w-full font-bold mb-2 text-gray-900'>
-                    {event.title}
-                </h2>
-                <div className=' flex flex-col w-full items-start justify-start gap-2'>
-                    <p className='text-gray-600 '>Date: {event.date}</p>
-                    <p className='text-gray-600 '>Place: {event.country}, {event.city}</p>
-            </div>
-            <div className='h-42'>
+        <div onClick={handleOpenPopup} className='flex px-3 py-3 cursor-pointer'>
+            <div className='flex flex-col justify-between max-w-sm rounded overflow-hidden shadow-lg'>
                 <img
+                    className='w-full opacity-90 hover:opacity-100'
                     src={
-                        event.images && event.images.length > 0 ? event.images[0] : 'fallback-image-url'
+                        event.images && event.images.length > 0
+                            ? event.images[0]
+                            : 'fallback-image-url'
                     }
                     alt={event.title}
-                    className='opacity-90 object-contain cursor-pointer hover:opacity-100 transition duration-200 rounded-lg'
                 />
+                <div className='px-6 py-4'>
+                    <h2 className='font-bold text-xl mb-2'>{event.title}</h2>
+                    <p className='text-gray-700 text-base'>Date: {event.date}</p>
+                    <p className='text-gray-700 text-base'>
+                        Place: {event.country}, {event.city}
+                    </p>
+                </div>
+                <div className='px-6 py-4'>
+                    <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2'>
+                        #travel
+                    </span>
+                </div>
             </div>
+
             <Popup isOpen={isPopupOpen} onClose={handleClosePopup}>
                 <div className='z-50 relative rounded-lg border border-gray-300 bg-white h-full w-full mx-auto p-6 overflow-auto flex flex-col justify-center items-center'>
-                    <h1 className='text-4xl font-bold mb-3 text-gray-900'>
-                        {event.title}
-                    </h1>
+                    <h1 className='text-4xl font-bold mb-3 text-gray-900'>{event.title}</h1>
 
-                        <div className='w-full flex flex-col justify-start items-start gap-2'>
-                            <p className='text-gray-600 mb-2'>Date: {event.date}</p>
-                            <p className='text-gray-600 mb-2'>Place: {event.country}, {event.city}</p>
-                            <p className='text-gray-900 mb-2 max-w-sm'>{event.description.join(' ')}</p>
-                        </div>
+                    <div className='w-full flex flex-col justify-start items-start gap-2'>
+                        <p className='text-gray-600 mb-2'>Date: {event.date}</p>
+                        <p className='text-gray-600 mb-2'>
+                            Place: {event.country}, {event.city}
+                        </p>
+                        <p className='text-gray-900 mb-2 max-w-sm'>{event.description.join(' ')}</p>
+                    </div>
                     <div className=' w-full h-full flex justify-center items-center'>
                         <img
                             src={
-                                event.images && event.images.length > 0 ? event.images[0] : 'fallback-image-url'
+                                event.images && event.images.length > 0
+                                    ? event.images[0]
+                                    : 'fallback-image-url'
                             }
                             alt={event.title}
                             className='w-full h-80 rounded-lg opacity-80 object-contain'
                         />
                     </div>
                     <div className='absolute bottom-5 right-3'>
-                        <ShareButton/>
+                        <ShareButton />
                     </div>
 
                     <div className='flex-grow'></div>

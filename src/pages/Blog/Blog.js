@@ -4,7 +4,7 @@ import SideBarRight from '../../components/SideBarRight/SideBarRight'
 
 export const Blog = () => {
     // фильтруем события, которые произойдут в будущем
-    const futureEvents = eventsBlog.filter(event => new Date(event.date) > new Date());
+    const futureEvents = eventsBlog.filter((event) => new Date(event.date) > new Date())
 
     return (
         <>
