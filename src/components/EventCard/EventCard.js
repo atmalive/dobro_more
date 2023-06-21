@@ -39,20 +39,22 @@ const EventCard = ({ event }) => {
             onClick={handleOpenPopup}
             className='relative cursor-pointer overflow-hidden border min-h-[400px] border-gray-100 bg-white flex flex-col justify-between items-center p-5  max-w-sm rounded-xl shadow-md'
         >
-            <h2 className='text-xl w-full font-bold mb-2 text-gray-900'>
-                {event.title}
-            </h2>
-            <div className=' flex flex-col w-full items-start justify-start gap-2'>
-                <p className='text-gray-600 '>Date: {event.date}</p>
-                <p className='text-gray-600 '>Place: {event.country}, {event.city}</p>
+                <h2 className='text-xl w-full font-bold mb-2 text-gray-900'>
+                    {event.title}
+                </h2>
+                <div className=' flex flex-col w-full items-start justify-start gap-2'>
+                    <p className='text-gray-600 '>Date: {event.date}</p>
+                    <p className='text-gray-600 '>Place: {event.country}, {event.city}</p>
             </div>
-            <img
-                src={
-                    event.images && event.images.length > 0 ? event.images[0] : 'fallback-image-url'
-                }
-                alt={event.title}
-                className='w-full h-48 opacity-90 object-contain cursor-pointer hover:opacity-100 transition duration-200 rounded-lg'
-            />
+            <div className='h-42'>
+                <img
+                    src={
+                        event.images && event.images.length > 0 ? event.images[0] : 'fallback-image-url'
+                    }
+                    alt={event.title}
+                    className='opacity-90 object-contain cursor-pointer hover:opacity-100 transition duration-200 rounded-lg'
+                />
+            </div>
             <Popup isOpen={isPopupOpen} onClose={handleClosePopup}>
                 <div className='z-50 relative rounded-lg border border-gray-300 bg-white h-full w-full mx-auto p-6 overflow-auto flex flex-col justify-center items-center'>
                     <h1 className='text-4xl font-bold mb-3 text-gray-900'>
