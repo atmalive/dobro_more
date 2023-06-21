@@ -37,14 +37,14 @@ const EventCard = ({ event }) => {
     return (
         <div
             onClick={handleOpenPopup}
-            className='relative cursor-pointer overflow-hidden border min-h-[400px] border-gray-100 bg-white flex flex-col justify-between items-center p-3  max-w-sm rounded-xl shadow-md'
+            className='relative cursor-pointer overflow-hidden border min-h-[400px] border-gray-100 bg-white flex flex-col justify-between items-center p-5  max-w-sm rounded-xl shadow-md'
         >
-            <h2 className='text-xl font-bold mb-2 text-gray-900'>
+            <h2 className='text-xl w-full font-bold mb-2 text-gray-900'>
                 {event.title}
             </h2>
-            <div className=' flex flex-col items-start justify-center'>
-                <p className='text-gray-600 '>{event.date}</p>
-                <p className='text-gray-600 '>{event.country}, {event.city}</p>
+            <div className=' flex flex-col w-full items-start justify-start gap-2'>
+                <p className='text-gray-600 '>Date: {event.date}</p>
+                <p className='text-gray-600 '>Place: {event.country}, {event.city}</p>
             </div>
             <img
                 src={
