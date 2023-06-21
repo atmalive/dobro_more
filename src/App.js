@@ -8,6 +8,9 @@ import { Press } from './pages/Press/Press'
 import { About } from './pages/About/About'
 import { Archive } from './pages/Archive/Archive'
 import { Team } from './pages/Team/Team'
+import { NotFound } from './pages/NotFound/NotFound'
+import { Gallery } from './pages/Gallery/Gallery'
+
 
 
 const App = () => {
@@ -22,6 +25,8 @@ const App = () => {
                 <Route path='dobroSouth' element={<DobroMoreSouth />} />
                 <Route path='team' element={<Team />} />
                 <Route path='press' element={<Press />} />
+                <Route path='gallery' element={<Gallery />} />
+                <Route path='*' element={<NotFound />} />
             </Route>
         </Routes>
     )

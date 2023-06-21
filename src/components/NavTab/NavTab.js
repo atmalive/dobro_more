@@ -7,6 +7,7 @@ const NavBar = () => {
     const navLinks = [
         { to: '/', text: t('navLinks.blog') },
         { to: '/archive', text: t('navLinks.archive') },
+        { to: '/gallery', text: t('navLinks.gallery') },
         { to: '/recovery', text: t('navLinks.recoveryProgram') },
         { to: '/press', text: t('navLinks.press') },
     ]
