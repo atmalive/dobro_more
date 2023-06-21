@@ -37,7 +37,7 @@ const EventCard = ({ event }) => {
         <div onClick={handleOpenPopup} className='flex px-3 py-3 cursor-pointer'>
             <div className='flex flex-col justify-between max-w-sm rounded overflow-hidden shadow-lg'>
                 <img
-                    className='w-full opacity-90 hover:opacity-100'
+                    className='w-full opacity-90 hover:opacity-100 h-56 object-cover'
                     src={
                         event.images && event.images.length > 0
                             ? event.images[0]
