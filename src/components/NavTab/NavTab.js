@@ -5,18 +5,15 @@ import { useTranslation } from 'react-i18next'
 const NavBar = () => {
     const { t } = useTranslation()
     const navLinks = [
-        { to: '/about', text: t('navLinks.about') },
         { to: '/', text: t('navLinks.blog') },
         { to: '/archive', text: t('navLinks.archive') },
         { to: '/recovery', text: t('navLinks.recoveryProgram') },
-        { to: '/dobroNorth', text: t('navLinks.dobroNorth') },
-        { to: '/dobroSouth', text: t('navLinks.dobroSouth') },
         { to: '/press', text: t('navLinks.press') },
     ]
 
     return (
-        <nav className='relative flex w-full items-center justify-center bg-white shadow-lg'>
-            <ul className='flex flex-col sm:flex-row'>
+        <nav className='relative flex px-3 items-start justify-start w-full sm:p-0 sm:items-center sm:justify-center bg-white shadow-lg'>
+            <ul className='flex flex-col items-start sm:flex-row gap-3 py-3 sm:py-0 sm:gap-0 '>
                 {navLinks.map((link, index) => (
                     <li key={index}>
                         <NavLink

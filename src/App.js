@@ -7,6 +7,8 @@ import { DobroMoreSouth } from './pages/DobroMoreSouth/DobroMoreSouth'
 import { Press } from './pages/Press/Press'
 import { About } from './pages/About/About'
 import { Archive } from './pages/Archive/Archive'
+import { Team } from './pages/Team/Team'
+
 
 const App = () => {
     return (
@@ -18,6 +20,7 @@ const App = () => {
                 <Route path='recovery' element={<RecoveryProgram />} />
                 <Route path='dobroNorth' element={<DobroMoreNorth />} />
                 <Route path='dobroSouth' element={<DobroMoreSouth />} />
+                <Route path='team' element={<Team />} />
                 <Route path='press' element={<Press />} />
             </Route>
         </Routes>

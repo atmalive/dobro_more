@@ -1,6 +1,3 @@
-import EventGrid from '../../components/EventGrid/EventGrid'
-import { eventsBlog } from '../../utils/eventsBlog'
-
 export const About = () => {
     return (
         <section className={'w-full flex flex-col justify-center items-center py-6 gap-2'}>

@@ -1,61 +1,30 @@
 import { FacebookFooterIcon, GithubFooterIcon, InstagramFooterIcon } from '../../utils/Icons'
+import { useTranslation } from 'react-i18next'
+import { NavLink } from 'react-router-dom'
+
 
 const Footer = () => {
+    const { t, i18n } = useTranslation()
+
+    const navLinks = [
+        { to: '/about', text: t('navLinks.about') },
+        { to: '/team', text: t('navLinks.blog') },
+        { to: '/archive', text: t('navLinks.archive') },
+        { to: '/recovery', text: t('navLinks.recoveryProgram') },
+        { to: '/dobroNorth', text: t('navLinks.dobroNorth') },
+        { to: '/dobroSouth', text: t('navLinks.dobroSouth') },
+        { to: '/press', text: t('navLinks.press') },
+    ]
     return (
         <footer className='bg-white mt-12'>
             <div className='container mx-auto w-full max-w-screen-x2'>
-                <div className='flex justify-between gap-8 px-4 py-6 lg:py-8 max-w-screen-x1'>
-                    <div>
-                        <h2 className='mb-6 text-sm font-semibold text-gray-900 uppercase '>
-                            Company
-                        </h2>
-                        <ul className='text-gray-500 font-medium'>
-                            <li className='mb-4'>
-                                <a href='#' className=' hover:underline'>
-                                    About
-                                </a>
-                            </li>
-                            <li className='mb-4'>
-                                <a href='#' className='hover:underline'>
-                                    Careers
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2 className='mb-6 text-sm font-semibold text-gray-900 uppercase '>
-                            Help center
-                        </h2>
-                        <ul className='text-gray-500 font-medium'>
-                            <li className='mb-4'>
-                                <a href='#' className='hover:underline'>
-                                    Discord Server
-                                </a>
-                            </li>
-                            <li className='mb-4'>
-                                <a href='#' className='hover:underline'>
-                                    Contact Us
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2 className='mb-6 text-sm font-semibold text-gray-900 uppercase '>
-                            Legal
-                        </h2>
-                        <ul className='text-gray-500 font-medium'>
-                            <li className='mb-4'>
-                                <a href='#' className='hover:underline'>
-                                    Terms &amp; Conditions
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div className='px-4 py-6 bg-gray-100 md:flex md:items-center md:justify-between'>
+                <div className='px-4 py-6 bg-gray-100 md:flex md:items-end md:justify-between'>
                     <span className='text-sm text-gray-500 sm:text-center'>
                         © 2023 <a href='#'>DobroMore™</a>. All Rights Reserved.
                     </span>
+
+
+
                     <div className='flex mt-4 space-x-6 sm:justify-center md:mt-0'>
                         <a href='#' className='text-gray-400 hover:text-gray-900'>
                             <FacebookFooterIcon />
@@ -70,6 +39,32 @@ const Footer = () => {
                             <span className='sr-only'>GitHub account</span>
                         </a>
                     </div>
+                    <ul className='text-gray-500 font-medium text-center flex flex-col gap-4 w-full max-w-sm justify-between items-end'>
+                        <li className=''>
+                            <NavLink
+                                className='transition duration-150 ease-in-out hover:bg-neutral-100 hover:text-neutral-900'
+                                to='/about'
+                            >
+                                About
+                            </NavLink>
+                        </li>
+                        <li className=''>
+                            <NavLink
+                                className='transition duration-150 ease-in-out hover:bg-neutral-100 hover:text-neutral-900'
+                                to='/team'
+                            >
+                                Team
+                            </NavLink>
+                        </li>
+                        <li className=''>
+                            <NavLink
+                                className='transition duration-150 ease-in-out hover:bg-neutral-100 hover:text-neutral-900'
+                                to='/donate'
+                            >
+                                Donate
+                            </NavLink>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>
