@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import Popup from '../Popup/Popup'
 import CloseButton from '../CloseButton/CloseButton'
+import ShareButton from '../ShareButton/ShareButton'
 
 const EventCard = ({ event }) => {
     const { t } = useTranslation()
@@ -36,12 +37,12 @@ const EventCard = ({ event }) => {
     return (
         <div
             onClick={handleOpenPopup}
-            className='relative rounded-lg overflow-hidden border max-w-sm min-h-[400px] border-gray-300 bg-white flex flex-col justify-between items-center'
+            className='relative cursor-pointer overflow-hidden border min-h-[400px] border-gray-100 bg-white flex flex-col justify-between items-center p-3  max-w-sm rounded-xl shadow-md'
         >
-            <div className='p-4 cursor-pointer flex flex-col items-center justify-start '>
-                <h2 className='text-xl font-bold mb-2 text-gray-900'>
-                    {event.title}
-                </h2>
+            <h2 className='text-xl font-bold mb-2 text-gray-900'>
+                {event.title}
+            </h2>
+            <div className=' flex flex-col items-start justify-center'>
                 <p className='text-gray-600 '>{event.date}</p>
                 <p className='text-gray-600 '>{event.country}, {event.city}</p>
             </div>
@@ -50,42 +51,33 @@ const EventCard = ({ event }) => {
                     event.images && event.images.length > 0 ? event.images[0] : 'fallback-image-url'
                 }
                 alt={event.title}
-                className='w-full h-48 opacity-80 object-contain cursor-pointer hover:scale-105 hover:opacity-100 transition duration-300'
+                className='w-full h-48 opacity-90 object-contain cursor-pointer hover:opacity-100 transition duration-200 rounded-lg'
             />
             <Popup isOpen={isPopupOpen} onClose={handleClosePopup}>
-                <div className='z-50 rounded-lg border border-gray-300 bg-white h-full w-full mx-auto p-6 overflow-auto flex flex-col'>
-                    <div className='flex w-full  justify-start items-center'>
-                        <div className='flex-1 w-full justify-start items-center'>
-                            <h1 className='text-4xl font-bold mb-3 text-gray-900'>
-                                {event.title}
-                            </h1>
-                            <p className='text-gray-600 mb-2'>{event.date}</p>
-                            <p className='text-gray-600 mb-2'>{event.country}, {event.city}</p>
-                            <p className='text-gray-600 mb-2'>{event.description.join(' ')}</p>
+                <div className='z-50 relative rounded-lg border border-gray-300 bg-white h-full w-full mx-auto p-6 overflow-auto flex flex-col justify-center items-center'>
+                    <h1 className='text-4xl font-bold mb-3 text-gray-900'>
+                        {event.title}
+                    </h1>
+
+                        <div className='w-full flex flex-col justify-start items-start gap-2'>
+                            <p className='text-gray-600 mb-2'>Date: {event.date}</p>
+                            <p className='text-gray-600 mb-2'>Place: {event.country}, {event.city}</p>
+                            <p className='text-gray-900 mb-2 max-w-sm'>{event.description.join(' ')}</p>
                         </div>
+                    <div className=' w-full h-full flex justify-center items-center'>
+                        <img
+                            src={
+                                event.images && event.images.length > 0 ? event.images[0] : 'fallback-image-url'
+                            }
+                            alt={event.title}
+                            className='w-full h-80 rounded-lg opacity-80 object-contain'
+                        />
                     </div>
-                    <img
-                        src={
-                            event.images && event.images.length > 0 ? event.images[0] : 'fallback-image-url'
-                        }
-                        alt={event.title}
-                        className='w-full h-48 opacity-80 object-contain'
-                    />
+                    <div className='absolute bottom-5 right-3'>
+                        <ShareButton/>
+                    </div>
 
                     <div className='flex-grow'></div>
-
-                    <div className='flex justify-between'>
-                        <div className='flex flex-col justify-between w-1/2 pr-2'>
-                            <div className='relative mb-4 h-[30vh] w-[100%]'>
-                                <iframe
-                                    className='absolute inset-0 w-full h-full'
-                                    src='https://www.google.com/maps/embed?...'
-                                    title='Google Map'
-                                />
-                            </div>
-                        </div>
-                    </div>
-
                     <button className='text-center'>
                         <a
                             href={event.registrationLink}

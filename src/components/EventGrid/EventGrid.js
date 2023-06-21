@@ -51,7 +51,7 @@ const EventGrid = ({ eventsBlog }) => {
             {Object.keys(groupedEvents).map((month) => (
                 <Fragment key={month}>
                     <div
-                        className='flex gap-2 p-1 w-full cursor-pointer hover:bg-gray-200 transition duration-100 opacity-90'
+                        className="relative flex w-full items-center justify-between bg-white py-3 text-neutral-600 shadow-md hover:text-neutral-900 hover:shadow-lg focus:text-neutral-900 md:flex-wrap md:justify-start cursor-pointer px-3 gap-2 opacity-80"
                         onClick={() => toggleMonth(month)}
                         style={{ transition: 'background-color 0.3s ease' }}
                     >
@@ -61,12 +61,10 @@ const EventGrid = ({ eventsBlog }) => {
                         <h2>{month}</h2>
                         <p>({groupedEvents[month].length})</p>
                     </div>
-                    <div className='border-t border-opacity-50 border-gray-700 w-full my-1 opacity-50'></div>
-
                     {openMonths[month] && (
                         <section
                             className={
-                                'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 p-4 w-full'
+                                'grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 gap-4 p-4 w-full'
                             }
                         >
                             {groupedEvents[month].map((event, id) => (

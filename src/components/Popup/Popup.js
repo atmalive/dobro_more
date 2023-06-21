@@ -5,8 +5,8 @@ const Popup = ({ isOpen, onClose, children }) => {
         return null
     }
 
-    const overlayClasses = `z-20 popup-overlay ${isOpen ? 'open' : ''}`
-    const contentClasses = `popup-content ${isOpen ? 'open' : ''}`
+    const overlayClasses = `z-20 popup-overlay  ${isOpen ? 'open' : ''}`
+    const contentClasses = `popup-content  ${isOpen ? 'open' : ''}`
 
     const handleClose = (e) => {
         console.log('Overlay clicked') // Добавим вывод в консоль

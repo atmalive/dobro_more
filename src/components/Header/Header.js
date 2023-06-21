@@ -21,7 +21,7 @@ const Header = () => {
                 style={headerStyle} // Добавьте стиль здесь
             >
                 <Logo />
-                <h1 className='text-font bg-white bg-opacity-60 px-3'>
+                <h1 className='text-font bg-white bg-opacity-70 px-3 font-medium text-xl opacity-80'>
                     {t('header.title')}
                 </h1>
                 <div className='absolute right-3 top-3 flex items-center justify-end opacity-80 z-10'>
