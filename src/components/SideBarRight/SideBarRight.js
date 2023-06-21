@@ -17,9 +17,9 @@ const SideBarRight = () => {
             {barCards.map((card, index) => (
                 <div
                     key={index}
-                    className='bg-white max-w-sm rounded-xl shadow-md overflow-hidden'
+                    className='bg-white max-w-sm rounded-xl shadow-md overflow-hidden '
                 >
-                    <img src={card.imageUrl} alt={card.title} className='w-full h-32 sm:h-48 object-cover' />
+                    <img src={card.imageUrl} alt={card.title} className='w-full sm:h-48 object-cover' />
                     <div className='p-4'>
                         <h2 className='font-bold text-xl mb-2'>{card.title}</h2>
                         <p className='mb-2'>{card.content}</p>
