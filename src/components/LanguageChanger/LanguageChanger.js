@@ -63,11 +63,15 @@ const LanguageChanger = () => {
     const dropdownRef = useRef(null)
 
     useEffect(() => {
-        const savedLanguage = getLocalStorage('language') || i18n.language
-        i18n.changeLanguage(savedLanguage)
-        setLanguage(savedLanguage)
-        document.documentElement.lang = languageToLangAttribute[savedLanguage]
-    }, [])
+        let savedLanguage = getLocalStorage('language') || i18n.language;
+        if (!Object.keys(languages).includes(savedLanguage)) {
+            console.warn(`Invalid language detected: ${savedLanguage}. Defaulting to 'en'.`);
+            savedLanguage = 'en';
+        }
+        i18n.changeLanguage(savedLanguage);
+        setLanguage(savedLanguage);
+        document.documentElement.lang = languageToLangAttribute[savedLanguage];
+    }, []);
 
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -119,7 +123,7 @@ const LanguageChanger = () => {
             <div
                 className={`hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] ${
                     isOpen ? 'opacity-90' : 'hidden'
-                } w-[100px] z-10 mt-2 bg-white shadow-md rounded-lg p-2 absolute top-full`}
+                } w-[100px] z-10 mt-2 bg-white shadow-md rounded-lg p-2 absolute top-full right-0`}
             >
                 {Object.keys(languages)
                     .filter((lang) => lang !== language)
